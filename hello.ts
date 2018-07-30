@@ -4,4 +4,6 @@ function hello(person: string) {
 
 let user = 'demojie';
 
-document.body.innerHTML = hello(user);
+let addItem = document.getElementById('hello');
+
+addItem.innerHTML = hello(user);

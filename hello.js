@@ -2,4 +2,5 @@ function hello(person) {
     return "Hello, " + person;
 }
 var user = 'demojie';
-document.body.innerHTML = hello(user);
+var addItem = document.getElementById('hello');
+addItem.innerHTML = hello(user);
